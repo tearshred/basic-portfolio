@@ -1,0 +1,140 @@
+body {
+    font-family: 'Quicksand' , sans-serif;
+    font-size: 16px;
+    background-image: url(../images/background.png);
+    margin: 0;
+}
+
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid black;
+}
+
+#logo{
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    width: 300px;
+    float: left;
+    background-color: #4aaaa5;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#rightlinks{
+    text-align: right;
+    padding-top: 30px;
+}
+
+.container{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 1px solid grey;
+    overflow: auto;
+}
+
+.wrapper{   
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content{
+    max-width: 860px;
+    margin-top: 20px;
+    padding:50px;
+}
+
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+}
+
+#copyright{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+img{
+    float: left;
+    display: inline-block;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+img:hover{
+    transform: scale(0.9, 0.9); /* Reduces height and width to 90% on hover */
+}
+
+li{
+    line-height: 55px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 10px;
+    border-right: 1px solid rgb(83, 83, 83);
+}
+
+a:hover{
+    color: red;
+    border-right: 1px solid rgb(83, 83, 83);
+}
+
+a:focus{
+    color: orange;
+    background-color: royalblue;
+}
+
+a:active{
+    color: green;
+    background-color: beige;
+}
+
+h1 {
+    color: #4aaaa5;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    margin-top: 5px; /* Add a top margin */
+    margin-bottom: 15px; /* Bottom margin */
+    resize: vertical /* Added a little extra from researching online */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: blue;
+}
