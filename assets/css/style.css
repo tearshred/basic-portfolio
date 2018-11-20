@@ -78,9 +78,10 @@ img{
     padding-bottom: 20px;
 }
 
-img:hover{
-    transform: scale(0.9, 0.9); /* Reduces height and width to 90% on hover */
+#portfolio:hover{
+    transform: scale(0.9, 0.9);
 }
+
 
 li{
     line-height: 55px;
